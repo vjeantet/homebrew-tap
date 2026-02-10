@@ -1,6 +1,6 @@
 cask "aipepito" do
-  version "26.3"
-  sha256 "ac7b20ffc198a749f7cb28afd5229842da7d9e83ce22dce755090bfeaa380a60"
+  version "26.4"
+  sha256 "7193cb51324239e58a484f72a2488261ffdcb4d8f2c0a515af733c55e42fd798"
 
   url "https://github.com/vjeantet/aipepito-releases/releases/download/v#{version}/AIPepito.dmg"
   name "AIPepito"
