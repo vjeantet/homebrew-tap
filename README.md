@@ -46,3 +46,11 @@ brew upgrade aipepito
 ```bash
 brew uninstall aipepito
 ```
+
+## alpaca-proxy
+
+Local HTTP proxy with PAC, NTLM, Basic and Kerberos authentication.
+
+```sh
+brew install vjeantet/tap/alpaca-proxy
+```
