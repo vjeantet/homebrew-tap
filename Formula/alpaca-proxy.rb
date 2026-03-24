@@ -1,16 +1,16 @@
 class AlpacaProxy < Formula
   desc "Local HTTP proxy with PAC, NTLM, Basic and Kerberos authentication"
   homepage "https://github.com/vjeantet/alpaca"
-  version "26.8"
+  version "26.9"
   license "Apache-2.0"
   depends_on :macos
 
   if ENV["ALPACA_DEV"]
-    url "https://github.com/vjeantet/alpaca/releases/download/v26.8/alpaca_v26.8-dev_darwin-arm64"
-    sha256 "d671503d2fc49c37376f3a58a25dccbf61d33980568a7872757a2cc3219f82fe"
+    url "https://github.com/vjeantet/alpaca/releases/download/v26.9/alpaca_v26.9-dev_darwin-arm64"
+    sha256 "c1b5cbc2df0acb79724930a1d2b9b1ec643c1a3fb5e5ea24c012cc3e4ea196c8"
   else
-    url "https://github.com/vjeantet/alpaca/releases/download/v26.8/alpaca_v26.8_darwin-arm64"
-    sha256 "8e9cc0a28464a3c57dfc3ef87b896b2f5d46b1f2e3b6b391f5ef35903e119e06"
+    url "https://github.com/vjeantet/alpaca/releases/download/v26.9/alpaca_v26.9_darwin-arm64"
+    sha256 "f649c68b86eb53379aae4897adc99f125e4baf4402c9dfb26871abe29b496f54"
   end
 
   def install
