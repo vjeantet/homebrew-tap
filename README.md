@@ -6,6 +6,7 @@
 |------|------|-------------|
 | **alerter** | Formula (CLI) | macOS notification CLI — send native notifications and capture user interactions |
 | **aipepito** | Cask (App) | Meeting recording with automatic transcription and AI-generated reports |
+| **nono** | Formula (CLI) | Kernel-enforced sandbox for AI agents, MCP servers and LLM workloads |
 
 ## Alerter
 
@@ -45,6 +46,28 @@ brew upgrade aipepito
 
 ```bash
 brew uninstall aipepito
+```
+
+## nono
+
+Kernel-enforced sandbox for AI agents, MCP servers and LLM workloads.
+
+### Install
+
+```bash
+brew install vjeantet/tap/nono
+```
+
+### Update
+
+```bash
+brew upgrade nono
+```
+
+### Uninstall
+
+```bash
+brew uninstall nono
 ```
 
 ## alpaca-proxy
