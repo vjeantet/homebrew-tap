@@ -3,17 +3,17 @@
 class Nono < Formula
   desc "Kernel-enforced sandbox for AI agents, MCP servers and LLM workloads"
   homepage "https://github.com/vjeantet/nono"
-  version "0.65.3"
+  version "0.67.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/vjeantet/nono/releases/download/v0.65.3/nono-v0.65.3-aarch64-apple-darwin.tar.gz"
-      sha256 "dfa33e677aac3f4b11d06988500409613afe1df984abd3d5d52521e2f2a60054"
+      url "https://github.com/vjeantet/nono/releases/download/v0.67.2/nono-v0.67.2-aarch64-apple-darwin.tar.gz"
+      sha256 "3b2872a83887bcc46878e81b0cb9c2865c9291988b0709fbf2fdfa0b0eb6ae3d"
     end
     on_intel do
-      url "https://github.com/vjeantet/nono/releases/download/v0.65.3/nono-v0.65.3-x86_64-apple-darwin.tar.gz"
-      sha256 "9670493f29f7b2d9a585f2673839e25db8776aa5ab7f81ffcce955a768084cb3"
+      url "https://github.com/vjeantet/nono/releases/download/v0.67.2/nono-v0.67.2-x86_64-apple-darwin.tar.gz"
+      sha256 "555dd853ebf558e87e1ebdac02a58027507ae2e824f311562576687b775aa559"
     end
   end
 
