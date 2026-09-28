@@ -7,7 +7,7 @@ cask "pepito" do
   desc "Meeting recording with automatic transcription and AI-generated reports"
   homepage "https://github.com/vjeantet/pepito-releases"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "pepito.app"
 
