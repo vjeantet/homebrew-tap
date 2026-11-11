@@ -1,6 +1,6 @@
 cask "pepito" do
-  version "26.70"
-  sha256 "bb34b0af62f18385af013a62ebfc8a174ef32abf64df9832fd67f12e5c06cfbe"
+  version "26.71"
+  sha256 "5588ef140d50aa0611ca1973f63f036cdbac35bbb6665123eb8996b410a3aca5"
 
   url "https://github.com/vjeantet/pepito-releases/releases/download/v#{version}/pepito.dmg"
   name "pepito"
